@@ -81,5 +81,5 @@ S.E.R.A_WEB/
     file_name VARCHAR(255) DEFAULT NULL,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
-🖥️ 주요 화면 (Screenshots)메인 페이지마이 페이지<img src="https://www.google.com/search?q=https://via.placeholder.com/400x200%3Ftext%3DMain%2BPage" alt="Main Page"><img src="https://www.google.com/search?q=https://via.placeholder.com/400x200%3Ftext%3DMy%2BPage" alt="My Page">게시판 (글쓰기)특징 소개<img src="https://www.google.com/search?q=https://via.placeholder.com/400x200%3Ftext%3DBoard" alt="Board"><img src="https://www.google.com/search?q=https://via.placeholder.com/400x200%3Ftext%3DFeatures" alt="Features">(※ 실제 깃허브 업로드 시, images 폴더에 캡처한 이미지를 넣고 위 경로를 수정해주세요.)🚀 설치 및 실행 방법 (How to Run)이 저장소를 클론합니다: git clone https://github.com/your-username/sera-web.gitXAMPP의 htdocs 폴더 내에 프로젝트를 위치시킵니다.Apache와 MySQL 서버를 실행합니다.phpMyAdmin 등을 이용해 위 Database Schema를 sample01_db 데이터베이스에 적용합니다.브라우저에서 http://localhost/sera-web/으로 접속합니다.
+
 
