@@ -59,7 +59,8 @@ S.E.R.A_WEB/
 ├── uploads/           # 게시판 이미지 업로드 폴더
 └── sera.png           # 메인 이미지 리소스
 
-💾 데이터베이스 설계 (Database Schema)프로젝트 실행을 위해 아래 SQL문을 사용하여 테이블을 생성해야 합니다.1. 사용자 테이블 (users)SQLCREATE TABLE IF NOT EXISTS users (
+💾 데이터베이스 설계 (Database Schema)프로젝트 실행을 위해 아래 SQL문을 사용하여 테이블을 생성해야 합니다.1. 사용자 테이블
+(users)SQLCREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL,
     email VARCHAR(100) NOT NULL UNIQUE,
